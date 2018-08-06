@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+    margin: 0;
+    font-family:"Roboto",sans-serif;   
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("imagess.PNG");
+        background-position: center;
+    background-size: :cover;
+    background-repeat:no-repeat;
+    height: 100vh
+        
+}
+.container{
+    max-width: 1300px;
+}
+
+header{
+    width:auto;
+    overflow:auto;
+}
+.logo{
+    float:left;
+}
+.logo h2 {
+    color:#fff;
+    margin-left:20px;
+}
+
+nav{
+  float: right;
+}
+nav ul{
+    width:auto;
+    overflow: auto
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:5px 15px;
+}
+nav ul li:hover{
+    border: 1px solid #fff;
+}
+
+nav ul .active{
+    border: 1px solid #fff;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size: 16px;
+    
+}
+.text{
+    margin-top: 16%;
+}
+.text h1{
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+}
+.buttons{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+buttons{
+    width:200px;
+    height: 40px;
+    margin-right:10px;
+}
+button a{
+    text-decoration: none;
+    font-size:16px;
+    color:#6c5ce7;
+}
+.btn-1{
+    background:#b2bec3;
+    border: 1px solid #b2bec3;
+}
+.btn-2:hover{
+     background:#b2bec3;
+    border: 1px solid #b2bec3;
+    
+}
